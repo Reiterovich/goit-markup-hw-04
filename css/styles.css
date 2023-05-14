@@ -167,7 +167,16 @@ ol {
 /* Перша секція */
 
 .hero-back {
+  margin-left: auto;
+  margin-right: auto;
   background: var(--background-hero);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg/bg-hero.jpg);
+  background-repeat: no-repeat;
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -208,6 +217,21 @@ ol {
 }
 
 /* Друга секція */
+
+.about-icon-list {
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.about-icon {
+  width: 64px;
+  height: 64px;
+}
 
 .about-us-section {
   padding-top: 120px;
@@ -326,9 +350,35 @@ ol {
 
 .name-direction {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.social-list-block {
+  margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.social-list-item {
+  background: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.social-list-icon {
+  width: 16px;
+  height: 16px;
 }
 
 /* Підвал */
