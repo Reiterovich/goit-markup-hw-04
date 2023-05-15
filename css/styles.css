@@ -30,6 +30,7 @@ sans-serif; */
   --title-card: #2e2f42;
   --direction-card: #434455;
   --button-filter-border: #e7e9fc;
+  --customers-title: #2e2f42;
 }
 
 body {
@@ -322,6 +323,8 @@ ol {
 .our-team-card {
   background: #ffffff;
   border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
 }
 
@@ -379,6 +382,49 @@ ol {
 .social-list-icon {
   width: 16px;
   height: 16px;
+}
+
+/* П'ята секція */
+
+.customers-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 156px;
+  padding-right: 156px;
+}
+
+.customers-title {
+  text-align: center;
+  color: var(--customers-title);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+}
+
+.customers-list-link {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.customers-icon {
 }
 
 /* Підвал */
