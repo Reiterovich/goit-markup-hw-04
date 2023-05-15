@@ -33,6 +33,7 @@ sans-serif; */
   --customers-title: #2e2f42;
   --social-border-link: #4d5ae5;
   --social-list-icon: #f4f4fd;
+  --customers-list-link: #8e8f99;
 }
 
 body {
@@ -396,8 +397,6 @@ ol {
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .customers-title {
@@ -417,21 +416,29 @@ ol {
 }
 
 .customers-list-item {
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  display: flex;
 }
 
 .customers-list-link {
-  margin-right: auto;
-  margin-left: auto;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  color: var(--customers-list-link);
+}
+
+.customers-list-link:focus,
+.customers-list-link:hover {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 .customers-icon {
+  fill: currentColor;
 }
 
 /* Підвал */
