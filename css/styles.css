@@ -458,7 +458,6 @@ ol {
 }
 
 .footer-logo-p {
-  margin-right: 120px;
 }
 
 .logo-footer {
@@ -541,8 +540,6 @@ ol {
   padding-right: 24px;
   border: 1px solid var(--button-filter-border);
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-filter:hover,
@@ -550,6 +547,8 @@ ol {
   background: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .title-card {
